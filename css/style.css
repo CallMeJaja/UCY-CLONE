@@ -17,6 +17,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f8f9fc;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -283,7 +284,7 @@ img {
 }
 
 .info-card {
-  background-color: #ffffff;
+  background-color: #e4f1f1;
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -311,7 +312,7 @@ img {
 
 .info-card p {
   font-size: 0.9rem;
-  color: #555;
+  color: #2E8586;
   flex-grow: 1;
   margin-bottom: 16px;
 }
@@ -355,7 +356,7 @@ img {
 }
 
 .cokromuda-card img {
-  width: 20px;
+  width: 32px;
 }
 
 /* ==========================================================================
@@ -552,7 +553,7 @@ img {
   max-height: 5em;
   overflow: hidden;
   text-overflow: ellipsis;
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 .testimoni-card-content .testimoni-text::before {
